@@ -13,6 +13,7 @@
 ACBot Loader is a **template application** designed for dynamic module loading and execution. Developers can extend this template to build tailored solutions such as:
 
 - Plugin-based architectures
+- Http proxy & TCPClient communication
 - Dynamic library/script loaders
 - Extensible runtime environments
 
