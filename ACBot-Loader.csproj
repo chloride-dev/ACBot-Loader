@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ACBot Loader</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>icon2.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <Authors>ACBot Developement Team</Authors>
+    <Product>ACBot Loader</Product>
+    <Description>Normal no more.</Description>
+    <PackageProjectUrl>https://github.com/acbot-dev/acbot-loader/</PackageProjectUrl>
+    <PackageIcon>team-modified-white.png</PackageIcon>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyName>ACBot Loader</AssemblyName>
+    <UseWindowsForms>False</UseWindowsForms>
+    <UseWPF>False</UseWPF>
+    <Version>1.0.0.2</Version>
+    <Copyright>Copyright © 2024 ACBot. All Rights Reserved</Copyright>
+    <SignAssembly>True</SignAssembly>
+    <DelaySign>True</DelaySign>
+    <Title>ACBot Loader</Title>
+    <PackageReadmeFile>U439498.md</PackageReadmeFile>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <ErrorReport>send</ErrorReport>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>ACBot-Loader</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+    <WarningLevel>9999</WarningLevel>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+    <WarningLevel>9999</WarningLevel>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\ChloridTeam\team-modified-white.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="F:\MarkDown\U439498.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0-rc.2.24473.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="4.2.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.0" />
+    <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
+    <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
+    <PackageReference Include="System.Xml.XPath.XDocument" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
