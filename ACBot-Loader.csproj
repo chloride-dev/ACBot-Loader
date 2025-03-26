@@ -2,23 +2,23 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
     <RootNamespace>ACBot Loader</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <ApplicationIcon>icon2.ico</ApplicationIcon>
     <PlatformTarget>x64</PlatformTarget>
-    <Authors>ACBot Developement Team</Authors>
+    <Authors>Chloride Developement Team</Authors>
     <Product>ACBot Loader</Product>
-    <Description>Normal no more.</Description>
-    <PackageProjectUrl>https://github.com/acbot-dev/acbot-loader/</PackageProjectUrl>
+    <Description>ACBot Loader is an open-source program loader template developed by Chloride Development Team, it provides a modular foundation for creating customizable program loaders.</Description>
+    <PackageProjectUrl>https://github.com/chloride-dev/acbot-loader/</PackageProjectUrl>
     <PackageIcon>team-modified-white.png</PackageIcon>
     <NeutralLanguage>en-US</NeutralLanguage>
     <AssemblyName>ACBot Loader</AssemblyName>
     <UseWindowsForms>False</UseWindowsForms>
     <UseWPF>False</UseWPF>
     <Version>1.0.0.2</Version>
-    <Copyright>Copyright © 2024 ACBot. All Rights Reserved</Copyright>
+    <Copyright>Copyright © 2025 Chloride Development. All Rights Reserved</Copyright>
     <SignAssembly>True</SignAssembly>
     <DelaySign>True</DelaySign>
     <Title>ACBot Loader</Title>
@@ -27,6 +27,8 @@
     <ErrorReport>send</ErrorReport>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>ACBot-Loader</PackageId>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Forked from github.com/acbot-dev/loader</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
