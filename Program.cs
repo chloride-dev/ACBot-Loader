@@ -172,7 +172,7 @@ namespace ACBotLoader
             if (currentVersion != latestVersion && downloadLink != null)
             {
                 //logger.LogInformation($"{componentName} update required: {currentVersion} -> {latestVersion}");
-                //Console.Title = $"{componentName} update required: {currentVersion} -> {latestVersion}";
+               
                 var randomFileName = GenerateRandomFileName(downloadLink);
                 var zipFilePath = Path.Combine(downloadsPath, $"{randomFileName}.zip");
 
