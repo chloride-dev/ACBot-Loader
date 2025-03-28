@@ -4,7 +4,7 @@
 [![.NET 8.0](https://img.shields.io/badge/.NET-8.0-blueviolet)](https://dotnet.microsoft.com/)
 [![Visual Studio 2022](https://img.shields.io/badge/IDE-Visual%20Studio%202022-purple)](https://visualstudio.microsoft.com/)
 
-**ACBot Loader** is an open-source program loader template developed by **Chloride Development Team**, licensed under **GNU General Public License v3.0**. Built with **.NET 8.0** and **C#**, it provides a modular foundation for creating customizable program loaders.
+**ACBot Loader** is an open-source program loader template developed by **Chloride Technology**, licensed under **GNU General Public License v3.0**. Built with **.NET 8.0** and **C#**, it provides a modular foundation for creating customizable program loaders.
 
 ---
 
