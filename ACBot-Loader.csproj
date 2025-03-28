@@ -18,7 +18,7 @@
     <UseWindowsForms>False</UseWindowsForms>
     <UseWPF>False</UseWPF>
     <Version>1.0.0.2</Version>
-    <Copyright>Copyright © 2025 Chloride Technology All Rights Reserved</Copyright>
+    <Copyright>Copyright © 2025 Chloride Technology, All Rights Reserved</Copyright>
     <SignAssembly>True</SignAssembly>
     <DelaySign>True</DelaySign>
     <Title>ACBot Loader</Title>
