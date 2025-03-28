@@ -22,7 +22,7 @@ ACBot Loader is a **template application** designed for dynamic module loading a
 - Clean abstraction for loader logic
 - Easy-to-modify template structure
 
-**Repository**: <https://github.com/chloride-dev/ACBot-Loader>
+**Repository**: <https://github.com/chloride-tech/ACBot-Loader>
 
 **IMPORTANT**: Derivative works **must** include:
 1. Original project attribution
@@ -44,5 +44,5 @@ ACBot Loader is a **template application** designed for dynamic module loading a
 ### Build Instructions
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/chloride-dev/ACBot-Loader.git
+   git clone https://github.com/chloride-tech/ACBot-Loader.git
    cd ACBot-Loader
