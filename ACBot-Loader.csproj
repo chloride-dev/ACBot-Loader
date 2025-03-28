@@ -8,17 +8,17 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>icon2.ico</ApplicationIcon>
     <PlatformTarget>x64</PlatformTarget>
-    <Authors>Chloride Developement Team</Authors>
+    <Authors>Chloride Technology</Authors>
     <Product>ACBot Loader</Product>
-    <Description>ACBot Loader is an open-source program loader template developed by Chloride Development Team, it provides a modular foundation for creating customizable program loaders.</Description>
-    <PackageProjectUrl>https://github.com/chloride-dev/acbot-loader/</PackageProjectUrl>
+    <Description>ACBot Loader is an open-source program loader template developed by Chloride Technology, it provides a modular foundation for creating customizable program loaders.</Description>
+    <PackageProjectUrl>https://github.com/chloride-tech/acbot-loader/</PackageProjectUrl>
     <PackageIcon>team-modified-white.png</PackageIcon>
     <NeutralLanguage>en-US</NeutralLanguage>
     <AssemblyName>ACBot Loader</AssemblyName>
     <UseWindowsForms>False</UseWindowsForms>
     <UseWPF>False</UseWPF>
     <Version>1.0.0.2</Version>
-    <Copyright>Copyright © 2025 Chloride Development. All Rights Reserved</Copyright>
+    <Copyright>Copyright © 2025 Chloride Technology All Rights Reserved</Copyright>
     <SignAssembly>True</SignAssembly>
     <DelaySign>True</DelaySign>
     <Title>ACBot Loader</Title>
